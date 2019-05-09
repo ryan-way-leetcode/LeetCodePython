@@ -15,11 +15,13 @@ class Solution:
         ]
 
     def letterCombinations(self, digits: str):
+        #base cases
         if len(digits) == 0: return []
         if len(digits) == 1: return self.numToLetters[int(digits[0])]
         
         retVal = []
         for i in reversed(digits):
+            #first iteration
             if len(retVal) == 0:
                 retVal = self.numToLetters[int(i)]
             else:
@@ -32,15 +34,19 @@ class Solution:
 
     #very pythony version
     def letterCombo_pythony(self, digits: str):
+        #base cases
         if len(digits) == 0: return []
         if len(digits) == 1: return self.numToLetters[int(digits[0])]
         
         retVal = []
         for i in reversed(digits):
+            #first iteration
             if len(retVal) == 0:
                 retVal = self.numToLetters[int(i)]
             else:
                 a = self.numToLetters[int(i)]
+                #if these two lists are not generate at the same time
+                #then the output will be incorrect
                 a, retVal = [a[i//len(retVal)] for i in range(len(a)*len(retVal))], retVal*len(a)
                 retVal = [i+j for i,j in zip(a,retVal)]
         return retVal
