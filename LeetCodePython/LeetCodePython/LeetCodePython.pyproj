@@ -4,7 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>c8429037-8f89-44a7-9015-8ad5ea0e6d02</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>LeetCodePython.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,10 +23,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Easy\ThreeSum.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Easy\LetterComboOfPhoneNumber.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="LeetCodePython.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Easy\" />
