@@ -1,6 +1,6 @@
 import unittest
 import timeit
-from Easy.ThreeSum import Solution
+from Medium.ThreeSum import Solution
 
 class Test_ThreeSum(unittest.TestCase):
     

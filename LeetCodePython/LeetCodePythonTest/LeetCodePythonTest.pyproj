@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e3d94d9b-4b2c-4913-94b4-c4b0ffa347bd</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>EasyTest\ThreeSumTest.py</StartupFile>
+    <StartupFile>MediumTest\NextPermutationTest.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,15 +22,18 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="EasyTest\ThreeSumTest.py">
+    <Compile Include="MediumTest\GenerateParensTest.py" />
+    <Compile Include="MediumTest\NextPermutationTest.py" />
+    <Compile Include="MediumTest\SwapNodesInPairsTest.py" />
+    <Compile Include="MediumTest\ThreeSumTest.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="EasyTest\LetterComboOfPhoneNumberTest.py">
+    <Compile Include="MediumTest\LetterComboOfPhoneNumberTest.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="EasyTest\" />
+    <Folder Include="MediumTest\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LeetCodePython\LeetCodePython.pyproj">

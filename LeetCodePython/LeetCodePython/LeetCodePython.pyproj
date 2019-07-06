@@ -23,15 +23,18 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Easy\ThreeSum.py">
+    <Compile Include="Medium\GenerateParens.py" />
+    <Compile Include="Medium\NextPermutation.py" />
+    <Compile Include="Medium\SwapNodesInPairs.py" />
+    <Compile Include="Medium\ThreeSum.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Easy\LetterComboOfPhoneNumber.py">
+    <Compile Include="Medium\LetterComboOfPhoneNumber.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Easy\" />
+    <Folder Include="Medium\" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">

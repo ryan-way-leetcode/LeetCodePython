@@ -1,5 +1,5 @@
 import unittest
-from Easy.LetterComboOfPhoneNumber import Solution
+from Medium.LetterComboOfPhoneNumber import Solution
 
 class Test_LetterComboOfPhoneNumberTest(unittest.TestCase):
     
